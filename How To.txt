@@ -1,0 +1,5 @@
+The Penguin Folder goes to %appdata% -> .minecraft -> saves -> YOUR WORLD -> datapacks
+
+The Penguin Cannon folder goes in the resource pack folder!
+
+Have fun
