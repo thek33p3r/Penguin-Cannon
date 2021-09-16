@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:arrow,tag=!checkPenguin] if data entity @s {inGround:0b} at @s run function cannon:arrow

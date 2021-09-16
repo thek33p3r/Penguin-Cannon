@@ -1,0 +1,3 @@
+tag @s add checkPenguin
+execute if data entity @p {SelectedItem:{id:"minecraft:crossbow",tag:{CustomModelData:1}}} run function cannon:arrowconfirm
+execute unless data entity @p {SelectedItem:{id:"minecraft:crossbow",tag:{CustomModelData:1}}} if data entity @p {Inventory:[{id:"minecraft:crossbow",Slot:-106b,tag:{CustomModelData:1}}]} unless data entity @p {SelectedItem:{id:"minecraft:crossbow"}} unless data entity @p {SelectedItem:{id:"minecraft:bow"}} run function cannon:arrowconfirm
